@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import time
 
+
 from traffic_sim import (
     traffic_queues,
     signal_state,
